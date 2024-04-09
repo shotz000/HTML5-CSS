@@ -1,0 +1,16 @@
+@charset "UTF-8";
+h1{
+    font-style: italic;
+    font-size: medium;
+    background-color: blue;
+    color: black;
+
+    
+
+}
+h2{
+    font-style: italic;
+    font-size: medium;
+    background-color: aqua;
+    color: black;
+}
