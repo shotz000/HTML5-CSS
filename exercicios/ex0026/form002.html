@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulario</title>
+    <style>
+        body{
+            background-color: rgba(255, 228, 196, 0.616);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+        }
+    </style>
+</head>
+<body>
+    <h1>Test</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="iusu">usuario</label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="15" placeholder="Nome do usuario">
+        </p>
+        <p>
+            <label for="isen">senha</label>
+            <input type="password" name="isen" id="senha" required minlength="8" maxlength="15" size="15" placeholder="Minimo 8 digitos">
+        </p>
+        <p>
+            <input type="submit" value="Enviar" >
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
