@@ -15,12 +15,24 @@
     <h1>Test</h1>
     <form action="cadastro.php" method="post" autocomplete="off">
         <p>
-            <label for="iusu">usuario</label>
+            <label for="iusu">Usuario</label>
             <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="15" placeholder="Nome do usuario">
         </p>
         <p>
-            <label for="isen">senha</label>
+            <label for="isen">Senha</label>
             <input type="password" name="isen" id="senha" required minlength="8" maxlength="15" size="15" placeholder="Minimo 8 digitos">
+        </p>
+        <p>
+            <label for="idata">Data</label>
+            <input type="month" name="data" id="idata" >
+        </p>
+        <p>
+            <label for="imedia">Media</label>
+            <input type="number" name="Media" id="imedia"  min="5" max="10">
+        </p>
+        <p>
+            <label for="ihora"> Hora</label>
+            <input type="time" name="Hora" id="ihora">
         </p>
         <p>
             <input type="submit" value="Enviar" >
