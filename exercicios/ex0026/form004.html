@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+        <h1>Test</h1>
+        <form action="cadastro.php" method="get"></form>
+        <fieldset>
+            <legend>Dados de cores</legend>
+            <p>
+                    <label for="icor">Cor</label>
+                </p>
+                <input type="color" name="cor" id="icor" value="#00ff00" min="1" max="5">
+                <p>
+                    <label for="inivel">Nivel de saturação</label>
+                </p>
+                <input type="range" name="nivel" id="inivel">
+                <p>
+                    <label for="arq">Foto</label>
+                </p>
+                <input type="file" name="Arquivo" id="arq">
+                <p>
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+             </p>
+        </fieldset>
+
+    
+</body>
+</html>
