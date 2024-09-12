@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos de formularios</h1>
+    <p><form action="cadastro.php" method="get" autocomplete="on"></form></p>
+    <p>
+        <label for="iest">Estados</label>
+        <select name="estados" id="iest">
+            <optgroup label="Região Sudeste">
+                <option value="SP">São paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+
+
+            <optgroup label="Região Nordeste">
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="PE">Pernambuco</option>
+                <option value="ME">Maranhão</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="Prof" id="iprof" list="istprof">
+        <datalist id="istprof">
+            <option value="Admin">Admin</option>
+            <option value="Professor">Professor</option>
+            <option value="Desenvolvedor">Dev</option>
+            <option value="Contabilidade">Cont</option>
+
+        </datalist>
+    </p>
+    <p>
+        <label for="insg">Mensagem</label>
+        <textarea name="msg" id="imgs"></textarea>
+    </p>
+    <input type="reset" value="Limpar">
+    <input type="submit" value="Enviar">
+
+    
+</body>
+</html>
